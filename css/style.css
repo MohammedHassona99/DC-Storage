@@ -324,9 +324,7 @@ ul.conat_info li a:hover {
 /** banner section **/
 
 .banner_main {
-  background-repeat: no-repeat;
   min-height: 1150px;
-  background-position: right top;
 }
 
 .text-bg {

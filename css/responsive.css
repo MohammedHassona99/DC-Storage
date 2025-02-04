@@ -18,9 +18,6 @@
   h3 {
     color: black !important;
   }
-  .banner_main {
-    background-size: 600px;
-  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .banner_slide {
@@ -32,10 +29,7 @@
   .transfot h3 {
     font-size: 16px;
   }
-  .banner_main {
-    background-size: auto 64%;
-    padding: 220px 0px 0px 0px;
-  }
+
   .text-bg h1 {
     font-size: 43px;
     line-height: 52px;
@@ -75,14 +69,19 @@
     padding-bottom: 20px;
     line-height: 44px;
   }
+  .header {
+    position: static;
+    padding: 0;
+  }
+  .right_bottun li a i,
+  .right_bottun button img{
+    color: #222222;
+  }
   .banner_main {
-    padding: 152px 0px 0px 0px;
-    /* background-color: #cacaca !important;
-    background: inherit; */
-    min-height: 919px;
+    min-height: 350px;
   }
   .about {
-    margin-top: 90px;
+    margin-top: 45px;
   }
   .transfot h3 {
     font-size: 19px;
@@ -133,6 +132,10 @@
   .banner_slide {
     padding: 0 80px 0 0px;
   }
+  .header {
+    position: static;
+    padding: 0;
+  }
   .text-bg {
     max-width: inherit;
   }
@@ -140,7 +143,7 @@
     padding-top: 30px;
   }
   .about {
-    margin-top: 90px;
+    margin-top: 45px;
   }
   #myCarousel a.carousel-control-prev {
     top: 34%;
@@ -201,10 +204,19 @@
   .text-bg h1 {
     color: #222222;
   }
+  .header {
+    position: static;
+  }
+  .logo {
+    width: 129px;
+  }
+  .banner_main {
+    min-height: 40px;
+  }
 }
 @media (max-width: 575px) {
   .header {
-    padding: 30px 0px 15px 0px;
+    padding: 0;
   }
   .logo {
     border: inherit;
@@ -223,7 +235,7 @@
     padding-top: 30px;
   }
   .about {
-    margin-top: 90px;
+    margin-top: 35px;
   }
   .text-bg h1 {
     font-size: 36px;
@@ -287,7 +299,7 @@
     margin-bottom: 30px;
   }
   .right_bottun {
-    margin-top: -40px;
+    margin-top: -65px;
   }
   ul.location_icon li {
     font-size: 18px;
