@@ -324,7 +324,6 @@ ul.conat_info li a:hover {
 /** banner section **/
 
 .banner_main {
-  background-size: auto 78%;
   background-repeat: no-repeat;
   min-height: 1150px;
   background-position: right top;
@@ -573,10 +572,6 @@ ul.conat_info li a:hover {
 
 .yell_colo i {
   background-color: #fed806;
-}
-
-.yelldark_colo {
-  /* margin: 0 50px;   */
 }
 
 .yelldark_colo i {
