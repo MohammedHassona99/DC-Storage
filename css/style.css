@@ -612,6 +612,7 @@ ul.conat_info li a:hover {
   width: 100%;
   border-radius: 25px;
   padding: 35px 0;
+  min-height: 200px;
 }
 
 .vehicles_truck:hover {
@@ -623,7 +624,10 @@ ul.conat_info li a:hover {
 .vehicles_truck figure {
   margin: 0;
 }
-
+/* .vehicles_truck figure img {
+  max-width: 100%;
+  height: auto;
+} */
 .blac_co {
   color: #000;
   font-size: 25px;
