@@ -564,6 +564,11 @@
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
     <script>
+      var phone = "Phone : +971507121327";
+      let tagPhone = document.querySelector(".phone-number");
+      tagPhone.innerHTML += phone;
+      console.log(tagPhone);
+
       function openNav() {
         document.getElementById("mySidepanel").style.width = "250px";
       }

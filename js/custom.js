@@ -1,10 +1,6 @@
 /*---------------------------------------------------------------------
     File Name: custom.js
 ---------------------------------------------------------------------*/
-var phone = "Phone : +971507121327";
-let tagPhone = document.querySelector(".phone-number");
-tagPhone.innerHTML += phone;
-console.log(tagPhone);
 
 $(function () {
   "use strict";
