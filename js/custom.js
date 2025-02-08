@@ -3,7 +3,7 @@
 ---------------------------------------------------------------------*/
 var phone = "Phone : +971507121327";
 let tagPhone = document.querySelector(".phone-number");
-tagPhone.innerHTML += phone
+tagPhone.innerHTML += phone;
 console.log(tagPhone);
 
 $(function () {
