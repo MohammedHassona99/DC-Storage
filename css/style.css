@@ -624,10 +624,9 @@ ul.conat_info li a:hover {
 .vehicles_truck figure {
   margin: 0;
 }
-/* .vehicles_truck figure img {
-  max-width: 100%;
-  height: auto;
-} */
+.vehicles_truck {
+  max-height: 500px;
+}
 .blac_co {
   color: #000;
   font-size: 25px;
@@ -943,6 +942,9 @@ ul.location_icon li {
   float: left;
   display: flex;
   align-items: center;
+}
+.phone-mobile {
+  
 }
 
 ul.location_icon li a {
