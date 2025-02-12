@@ -36,7 +36,12 @@
 html {
   scroll-behavior: smooth;
 }
-
+.btn-whatsapp {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  z-index: 888888;
+}
 body {
   color: #666666;
   font-size: 14px;
@@ -943,17 +948,7 @@ ul.location_icon li {
   display: flex;
   align-items: center;
 }
-.hr-whats {
-  width: 70%;
-  margin-top: 40px;
-  background-color: var(--main-color);
-}
-.btn-whats {
-  background-color: var(--main-color);
-}
-.btn-whats a {
-  color: white;
-}
+
 ul.location_icon li a {
   font-size: 40px;
   color: var(--main-color);
