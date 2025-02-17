@@ -328,10 +328,6 @@ ul.conat_info li a:hover {
 
 /** banner section **/
 
-.banner_main {
-  min-height: 1150px;
-}
-
 .text-bg {
   margin-top: 70px;
   text-align: left;
@@ -346,6 +342,10 @@ ul.conat_info li a:hover {
   line-height: 70px;
   padding-bottom: 45px;
   font-weight: bold;
+}
+
+.carousel-inner {
+  height: 41rem;
 }
 
 .text-bg span {
@@ -492,7 +492,7 @@ ul.conat_info li a:hover {
 
 .about {
   background-color: #ffffff;
-  margin-top: -160px;
+  margin-top: 70px;
 }
 
 .about .about_img figure {

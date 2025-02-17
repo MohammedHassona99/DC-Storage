@@ -12,6 +12,7 @@
   .map {
     margin-right: 0px;
   }
+  
 }
 @media (max-width: 576px) {
   .s-black span,
@@ -74,7 +75,7 @@
     padding: 0;
   }
   .right_bottun li a i,
-  .right_bottun button img{
+  .right_bottun button img {
     color: #222222;
   }
   .banner_main {
