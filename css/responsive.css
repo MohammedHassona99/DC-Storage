@@ -12,7 +12,6 @@
   .map {
     margin-right: 0px;
   }
-  
 }
 @media (max-width: 576px) {
   .s-black span,
@@ -35,9 +34,7 @@
     font-size: 43px;
     line-height: 52px;
   }
-  .about {
-    margin-top: -340px;
-  }
+
   .yelldark_colo {
     margin: 0 30px;
   }
@@ -126,6 +123,13 @@
   }
   .banner_slide {
     padding: 0 80px 0 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Adjust breakpoint as needed */
+  .banner_main .carousel-inner {
+    height: 41rem;
   }
 }
 
