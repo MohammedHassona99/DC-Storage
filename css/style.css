@@ -36,12 +36,7 @@
 html {
   scroll-behavior: smooth;
 }
-.btn-whatsapp {
-  position: fixed;
-  bottom: 10px;
-  right: 15px;
-  z-index: 888888;
-}
+
 body {
   color: #666666;
   font-size: 14px;
@@ -343,7 +338,6 @@ ul.conat_info li a:hover {
   padding-bottom: 45px;
   font-weight: bold;
 }
-
 
 .text-bg span {
   color: #222222;

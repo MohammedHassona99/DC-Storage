@@ -79,16 +79,23 @@
   <!-- body -->
   <body class="main-layout">
     <!-- WhatsApp BTN -->
+
+    <!-- loader  -->
+    <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+
     <a
       class="btn-whatsapp"
       href="https://wa.me/+971507121327"
       target="_blank"
       title="Reach us via WhatsApp"
+      style="position: fixed; bottom: 40px; right: 30px; z-index: 99999"
     >
       <svg
         fill="#FFF"
-        width="50px"
-        height="50px"
+        width="60px"
+        height="60px"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
         style="background-color: #1bd741; padding: 10px; border-radius: 15px"
@@ -98,11 +105,6 @@
         />
       </svg>
     </a>
-
-    <!-- loader  -->
-    <div class="loader_bg">
-      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-    </div>
     <!-- end loader -->
     <div id="mySidepanel" class="sidepanel">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
